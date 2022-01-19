@@ -1,44 +1,63 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-
-h1 {
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-h2 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    font-weight: 700;
-    line-height: 1.5;
-}
-
-
-h3 {
-    font-size: 1.5em;
     font-weight: 700;
 }
-
 
 p {
     color: #8f8f8f;
 }
 
 
+/* HEADINGS */
+.big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 }
 
-#title {
+
+
+/* SECTIONS */
+.colored-section {
     background-color: #ff4c68;
-    color: white
+    color: white;
+}
+
+.white-section {
+    background-color: white;
 }
 
 
-/* Navigation Bar */
+
+/* TITLE */
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.title-img {
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+    padding-right: 40px;
+  }
+
+
+/* NAVIGATION BAR */
 .navbar {
     padding-bottom: 5rem;
 }
@@ -60,31 +79,25 @@ p {
 
 
 
-/* Download Buttons */
+/* DOWNLOAD BUTTONS */
 .dl-button {
     margin: 5% 3% 5% 0;
 }
 
 
-/* Title Image */
-.title-img {
-    width: 25%;
-    transform: rotate(25deg);
-    position: absolute;
-    padding-right: 40px;
-  }
 
-
-/* Features CSS  */
+/* FEATURES */
 #features {
-    padding: 7% 20%;
     background-color: white;
     position: relative;
   }
 
 .feature-box {
-    text-align: center;
     padding: 4.5%
+}
+
+.feature-title {
+    font-size: 1.5rem;
 }
 
 .icon {
@@ -97,11 +110,11 @@ p {
 }
 
 
-/* testimonials  */
+
+
+/* TESTIMONIAL */
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
-    color: #fff
 }
 
 .testimonial-image {
@@ -110,11 +123,15 @@ p {
     margin: 20px;
 }
 
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
-/* Press */
+
+/* PRESS */
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -123,16 +140,18 @@ p {
     margin: 20px 20px 50px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
 
 
 
-/* Pricing */
+
+/* PRICING */
 #pricing {
     padding: 100px;
-    text-align: center;
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column {
@@ -141,27 +160,7 @@ p {
 
 
 
-/* cta section */
-#cta {
-    background-color: #ff4c68;
-    color: white;
-    padding: 7% 15%;
-    text-align: center;
-}
-
-.cta-heading {
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-
-
-/* footer */
-#footer {
-    padding: 7% 15%;
-    text-align: center;
-}
+/* FOOTER */
 
 .social {
    margin: 20px 10px
